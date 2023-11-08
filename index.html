@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Code Editor</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Pro Coder🧑‍💻</h1>
+
+        <div class="editor">
+             <div class="left">
+                <label>HTML</label>
+                <textarea onkeyup="run()" spellcheck="false" id="htmlcode">
+
+                </textarea>
+                <label>CSS</label>
+                <textarea onkeyup="run()" spellcheck="false" id="csscode">
+
+                </textarea>
+                <label>JAVASCRIPT</label>
+                <textarea onkeyup="run()" spellcheck="false" id="jscode">
+
+                </textarea>
+             </div>
+             <div class="right">
+                <label><i class='bx bx-play'></i>OUTPUT</label>
+                <iframe id="output"></iframe>
+             </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Made with ❤️ by <a href="https://github.com/ItsMeAnil01">Anil</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
